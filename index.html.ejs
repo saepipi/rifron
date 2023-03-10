@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="<%= themeColor %>">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>">
+    <% /* TODO: Additional analytics */ %>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <section class="text-center">
+          <h1><%= title %></h1>
+          <hr class="title-divider">
+          <div class="logo-container">
+            <img class="logo" alt="ロゴ" src="logo.png">
+          </div>
+        </section>
+        <section class="text-center cta-container">
+          <div class="cta-content">
+            <p><%= ctaText %></p>
+            <a class="cta-btn" href="<%= ctaUrl %>">
+              <img src="cta-icon.png">
+              <span>友だち追加</span>
+            </a>
+            <a href="<%= ctaUrl %>">
+              <img class="cta-qr" src="cta-qr.png">
+            </a>
+            <img class="cta-graphic" src="cta-graphic.png">
+          </div>
+        </section>
+        <section>
+          <div class="company-info">
+            <h2 class="text-bold"><%= companyName %></h2>
+            <hr>
+            <address class="contact"><%= contactInfo %></address>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

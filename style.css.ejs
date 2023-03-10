@@ -1,0 +1,95 @@
+body {
+  min-width: 300px;
+  min-height: 100vh;
+  font-family: "Helvetica Neue", Helvetica;
+  line-height: 1.8rem;
+  border: 10px solid <%= themeColor %>;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  align-items: start;
+}
+
+.content {
+  max-width: 360px;
+  display: grid;
+  gap: 40px;
+  margin: 3rem 0;
+}
+
+.content > section > h1 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.title-divider {
+  color: <%= themeColor %>;
+  margin: 0 4rem;
+  border-top: 2px solid;
+}
+
+.logo-container {
+  margin-top: 1rem;
+}
+
+.logo {
+  max-width: 100%;
+  padding: 0 1.5rem;
+}
+
+.text-center { text-align: center; }
+.text-bold { font-weight: 600; }
+
+.cta-container {
+  border: 6px solid #06c755;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 1rem;
+  position: relative;
+}
+
+.cta-content > p {
+  font-weight: 600;
+  color: #06c755;
+  margin-bottom: 1.4rem;
+}
+
+.cta-graphic {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 90px;
+}
+
+.cta-btn {
+  display: block;
+  background-color: #06c755;
+  color: white;
+  font-weight: 500;
+  padding: 20px 40px;
+  margin: 0px 30px;
+  border-radius: 40px;
+}
+
+.cta-btn > img {
+  width: 1.8rem;
+}
+
+.cta-btn > span {
+  padding-left: 1rem;
+}
+
+.cta-qr {
+  padding: 20px 60px;
+}
+
+.company-info {
+  font-size: 0.9rem;
+  padding: 0 3rem;
+}
+
+.contact {
+  white-space: pre;
+}
