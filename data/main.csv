@@ -1,5 +1,21 @@
-company_name,title,description,line_text,line_url,qr_url,contact_info,theme_color
-株式会社RIFRON,軽貨物ドライバー募集中！株式会社RIFRON,軽貨物ドライバー募集中！株式会社RIFRON,求人詳細＆応募はこちらより,https://lin.ee/g7OlQSI,https://lin.ee/g7OlQSI,"住所：〒223-0057
+company_name,title,description,meta,line_text,line_url,qr_url,contact_info,theme_color
+株式会社RIFRON,軽貨物ドライバー募集中！株式会社RIFRON,軽貨物ドライバー募集中！株式会社RIFRON,"<meta name=""facebook-domain-verification"" content=""rullelouyzst0l5a76d5mo9vdz3mn3"" /><!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '539173791434069');
+fbq('track', 'PageView');
+</script>
+<noscript><img height=""1"" width=""1"" style=""display:none""
+src=""https://www.facebook.com/tr?id=539173791434069&ev=PageView&noscript=1""
+/></noscript>
+<!-- End Meta Pixel Code -->",求人詳細＆応募はこちらより,https://lin.ee/g7OlQSI,https://lin.ee/g7OlQSI,"住所：〒223-0057
 神奈川県横浜市港北区
 新羽町1700-4-202
 電話：045-900-5547",#ed6d00
